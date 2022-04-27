@@ -1,0 +1,111 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f8ff;
+  /* color: rgb(3, 3, 112); */
+}
+
+.wrapping-resume {
+  margin: 5rem;
+  border: 2px solid rgb(3, 3, 112);
+  width: 900px;
+  height: 1350px;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.personal-info {
+  font-size: 0.7rem;
+  display: block;
+  padding-left: 1rem;
+}
+
+.personal-info h2 {
+  margin-top: -0.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.objective,
+.hard-Skills,
+.personal-Projects,
+.professional-experience,
+.education-and-Languages,
+.personal {
+  display: flex;
+  flex-direction: column;
+}
+
+.objective h1,
+.hard-Skills h1,
+.personal-Projects h1,
+.professional-experience h1,
+.education-and-Languages h1,
+.personal h1 {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+ol > li {
+  list-style: none;
+  margin: 0.2rem;
+}
+
+.professional-experience h2 {
+  font-size: 1.3rem;
+  margin-left: 1.5rem;
+  margin-top: -1rem;
+}
+
+.personal-Projects ul,
+.professional-experience ul,
+.education-and-Languages ul {
+  margin-top: -0.7rem;
+}
+
+.professional-experience,
+.education-and-Languages,
+.personal {
+  margin-top: -1rem;
+}
+
+.personal p {
+  margin: 1.5rem;
+  margin-top: -0.7rem;
+}
+
+.objective li,
+.hard-Skills li {
+  margin-left: 1.5rem;
+  margin-top: -0.7rem;
+}
+
+footer {
+  width: 100%;
+  height: 7rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-list a {
+  margin: 0 2rem;
+  font-size: 2rem;
+}
