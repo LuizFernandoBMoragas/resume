@@ -13,7 +13,7 @@ body {
   margin: 5rem;
   border: 2px solid rgb(3, 3, 112);
   width: 900px;
-  height: 1400px;
+  height: 1450px;
 }
 
 header h1 {
@@ -25,7 +25,8 @@ header h1 {
 .personal-info {
   font-size: 0.7rem;
   display: block;
-  padding-left: 1rem;
+  padding-left: 3rem;
+  margin-top: 4rem;
 }
 
 .personal-info h2 {
@@ -54,17 +55,19 @@ a {
 .education-and-Languages h1,
 .personal h1 {
   margin: 1rem;
+  margin-left: 3rem;
   font-size: 1.5rem;
 }
 
 ol > li {
   list-style: none;
   margin: 0.2rem;
+  margin-left: 2.5rem;
 }
 
 .professional-experience h2 {
   font-size: 1.3rem;
-  margin-left: 1.5rem;
+  margin-left: 4.5rem;
   margin-top: -1rem;
 }
 
@@ -72,6 +75,7 @@ ol > li {
 .professional-experience ul,
 .education-and-Languages ul {
   margin-top: -0.7rem;
+  margin-left: 3rem;
 }
 
 .professional-experience,
@@ -81,13 +85,13 @@ ol > li {
 }
 
 .personal p {
-  margin: 1.5rem;
+  margin: 3.5rem;
   margin-top: -0.7rem;
 }
 
 .objective li,
 .hard-Skills li {
-  margin-left: 1.5rem;
+  margin-left: 4.5rem;
   margin-top: -0.7rem;
 }
 
@@ -101,11 +105,12 @@ footer {
 }
 
 .footer-content {
+  margin-top: -4rem;
   display: flex;
   justify-content: space-between;
 }
 
 .social-list a {
-  margin: 0 2rem;
+  margin: 2rem;
   font-size: 2rem;
 }
